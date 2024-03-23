@@ -1,0 +1,5 @@
+1. Create all required Tables in the DataBase using 'All tables.sql' file in mysql DB.
+
+2. import all jar files in the project.
+
+3. Change userID and Password of mysql connectivity (in all pages).
