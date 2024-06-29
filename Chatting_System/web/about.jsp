@@ -59,8 +59,8 @@
                     <p><i class="fa-solid fa-envelope" style="--icon-clr: #df1f1f;"></i>satya@gmail.com</p>
                     <div class="social-icons">
                         <a href="https://www.facebook.com/satyabrata.panda.3956690?mibextid=ZbWKwL" target="_blank" style="--social-clr: #1877f2;"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://x.com/__satyabrata__" target="_blank" style="--social-clr: #1da1f2;"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/satya.brata_panda?igsh=MTNuNHBuMXg4MTUyOQ==" target="_blank" style="--social-clr: #c32aa3;"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/__satyabrata__" target="_blank" style="--social-clr: #000000;"><i class="fab fa-x-twitter"></i></i></a>
+                        <a href="https://www.linkedin.com/in/satyabrata-panda-a462b5220" target="_blank" style="--social-clr: #0A66C2;"><i class="fab fa-linkedin-in"></i></a>
                         <a href="https://www.youtube.com/channel/UCRwqXSEz4xspk1B1z592-fA" target="_blank" style="--social-clr: #ff0000;"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
@@ -79,8 +79,8 @@
                     <p><i class="fa-solid fa-envelope" style="--icon-clr: #df1f1f;"></i>satya@gmail.com</p>
                     <div class="social-icons">
                         <a href="https://www.facebook.com/satyabrata.panda.3956690?mibextid=ZbWKwL" target="_blank" style="--social-clr: #1877f2;"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://x.com/__satyabrata__" target="_blank" style="--social-clr: #1da1f2;"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/satya.brata_panda?igsh=MTNuNHBuMXg4MTUyOQ==" target="_blank" style="--social-clr: #c32aa3;"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/__satyabrata__" target="_blank" style="--social-clr: #000000;"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/satyabrata-panda-a462b5220" target="_blank" style="--social-clr: #0A66C2;"><i class="fab fa-linkedin-in"></i></a>
                         <a href="https://www.youtube.com/channel/UCRwqXSEz4xspk1B1z592-fA" target="_blank" style="--social-clr: #ff0000;"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>

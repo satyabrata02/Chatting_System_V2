@@ -13,7 +13,7 @@
         String query="delete from ocs"+PHONENO+" ";
         st.execute(query);
         
-        response.sendRedirect("history.jsp");                    
+        response.sendRedirect("history.jsp");
         st.close();
         con.close();
     }
