@@ -16,7 +16,8 @@
         response.sendRedirect("history.jsp");
         st.close();
         con.close();
-    }catch(Exception exp){
+    }
+    catch(Exception exp){
         out.print("error in reading"+exp.getMessage());
     }
 %>
