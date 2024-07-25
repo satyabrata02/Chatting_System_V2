@@ -166,8 +166,11 @@
 
                 </div>
                 <form action="chatroom_con.jsp" class="typing-area">
-                    <input type="text" placeholder="Type a message here..." name="sendmessage" required>
+<!--                    <input type="text" placeholder="Type a message here..." name="sendmessage" required>-->
 
+                    <div class="sendmessage">
+                        <textarea name="sendmessage" id="messageInput" placeholder="Type a message here..." required></textarea>
+                    </div>
                     <input type="hidden" value="<%=FROMUSER%>" name="fromuser">
                     <input type="hidden" value="<%=TOUSER%>" name="touser">
                     <input type="hidden" value="<%= (new java.util.Date()).toLocaleString()%>" name="chat_date">
@@ -243,6 +246,23 @@
         const options = document.querySelector(".more-options");
         options.addEventListener("click", () => {
             options.classList.toggle("active");
+        });
+        
+        document.addEventListener("DOMContentLoaded", function() {
+            const textarea = document.getElementById("messageInput");
+            const sendmessage = document.getElementById("sendmessage");
+
+            textarea.addEventListener("input", function() {
+                // Check if the text has line breaks or if it overflows
+                if (this.value.includes('\n') || this.scrollHeight > this.clientHeight) {
+                    this.style.height = "auto";
+                    this.style.height = Math.min(this.scrollHeight, 110) + "px";
+                } else if (this.value.trim() === "") {
+                    this.style.height = "47px";
+                } else {
+                    this.style.height = "47px";
+                }
+            });
         });
     </script>
     <script src="js/header.js"></script>

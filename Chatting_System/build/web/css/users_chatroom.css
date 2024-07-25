@@ -150,7 +150,10 @@
 }
 
 /* ============================================================================================= */
-
+.main-chatroom{
+    overflow: hidden;
+    height: auto;
+}
 .chat-area header{
     display: flex;
     align-items: center;
@@ -284,11 +287,12 @@ header form .clear-chat .clearchat-btn button{
     border-radius: 18px 18px 18px 0;
 }
 .chat-area .typing-area{
-    padding: 18px 30px;
+    padding: 10px 15px  3px;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
-.typing-area input{
+/*.typing-area input{
     height: 47px;
     width: calc(100% - 58px);
     font-size: 18px;
@@ -296,6 +300,32 @@ header form .clear-chat .clearchat-btn button{
     padding: 0 13px;
     border-radius: 8px 0 0 8px;
     outline: none;
+}*/
+.typing-area .sendmessage{
+    position: relative;
+    width: calc(100% - 58px);
+}
+.typing-area textarea{
+    height: 47px;
+    max-height: 110px;
+    width: 100%;
+    font-size: 18px;
+    border: 1px solid #9e9e9e;
+    padding: 8px 13px;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+    resize: none;
+    overflow: hidden; /* Hide scrollbar */
+    transition: height 0.2s; /* Optional: Smooth height transition */
+}
+.typing-area textarea.expanding {
+    height: auto;
+    min-height: 47px;
+    max-height: 110px;
+    overflow-y: auto; /* Show scrollbar when reaching max height */
+}
+.typing-area textarea::-webkit-scrollbar{
+  width: 0px;
 }
 .typing-area button{
     width: 55px;
@@ -324,9 +354,6 @@ header form .clear-chat .clearchat-btn button{
         height: 500px;
         border-radius: 12px;
         margin-top: 20px;
-    }
-    .main-chatroom{
-        overflow: hidden;
     }
     .users{
         padding: 15px 20px;
